@@ -1,0 +1,10 @@
+package com.bjsxt.dao.impl;
+
+public class UserDAPOImpl implements UserDAO{
+	
+	@Override
+	public void save(User u) {
+		System.out.println("User Saved!");
+	}
+	
+}

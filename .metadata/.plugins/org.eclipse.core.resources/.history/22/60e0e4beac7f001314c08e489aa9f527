@@ -1,0 +1,9 @@
+package com.bjsxt.dao;
+
+import com.bjsxt.model.User;
+
+public class UserDAO {
+	public void save(User u) {
+		System.out.println("User saved!");
+	}
+}

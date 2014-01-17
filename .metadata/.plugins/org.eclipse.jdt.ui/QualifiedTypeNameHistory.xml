@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bjsxt.model.User"/>
+<fullyQualifiedTypeName name="com.bjsxt.dao.UserDAO"/>
+<fullyQualifiedTypeName name="com.bjsxt.dao.impl.UserDAOImpl"/>
+</qualifiedTypeNameHistroy>
