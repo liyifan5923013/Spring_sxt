@@ -2,13 +2,13 @@
 <HD>
 	<disk name="C">
 		<capacity>8G</capacity>
-		<directuries>200</directuries>
+		<directories>200</directories>
 		<files>1580</files>
 	</disk>
 	
 	<disk name="D">
 		<capacity>10G</capacity>
-		<directuries>500</directuries>
+		<directories>500</directories>
 		<files>3000</files>
 	</disk>
 </HD>

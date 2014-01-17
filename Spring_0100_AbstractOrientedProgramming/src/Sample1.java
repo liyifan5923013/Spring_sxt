@@ -4,7 +4,7 @@ import org.jdom.input.SAXBuilder;
 public class Sample1 {     
 	public static void main(String[] args) throws Exception{       
 		SAXBuilder sb=new SAXBuilder();       
-		Document doc=sb.build("sample.xml"); //construct document object
+		Document doc=sb.build(Sample1.class.getClassLoader().getResourceAsStream("test.xml")); //construct document object
 		Element root=doc.getRootElement(); //get root element
 		List list=root.getChildren("disk");// get all the elements with name disk     
 		for(int i=0;i<list.size();i++){          
