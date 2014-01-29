@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.bjsxt.dao.impl.UserDAOImpl.dataSource&apos; in &apos;com.bjsxt.dao.impl.UserDAOImpl&apos;&#x0D;&#x0A;- Original project: &apos;Spring_1700_Spring_DataSource&apos;&#x0D;&#x0A;- Original element: &apos;com.bjsxt.dao.impl.UserDAOImpl.dataSource&apos;&#x0D;&#x0A;- Getter method name: &apos;getDataSource&apos;&#x0D;&#x0A;- Setter method name: &apos;setDataSource&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;dataSource&apos;" flags="589830" getter="getDataSource" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.bjsxt.dao.impl{UserDAOImpl.java[UserDAOImpl^dataSource" insertion="0" setter="setDataSource" stamp="1391035127365" version="1.0" visibility="1"/>
+</session>

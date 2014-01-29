@@ -1,0 +1,5 @@
+package com.bjsxt.dao.impl;
+
+public class UserDAOImpl2 {
+
+}

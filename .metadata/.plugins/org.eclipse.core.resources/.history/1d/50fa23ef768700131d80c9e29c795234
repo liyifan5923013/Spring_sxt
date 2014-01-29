@@ -1,0 +1,11 @@
+package com.bjsxt.dao.impl;
+
+public class UserDAOImpl2 extends UserDAOImpl{
+	@Override
+	public void save(User user) {
+		System.out.println("Save start");
+		
+		super.save(user);
+		
+	}
+}

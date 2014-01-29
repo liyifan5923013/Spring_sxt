@@ -1,0 +1,22 @@
+package com.bjsxt.aop;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+
+public class LogInterceptor implements InvocationHandler{
+	private Object target;
+
+	public void beforeMethod() {
+		System.out.println("save start");
+	}
+
+	@Override
+	public Object invoke(Object proxy, Method m, Object[] args)
+			throws Throwable {
+		beforeMethod();
+		m.invoke(target,args);
+		return null;
+	}
+	
+
+}

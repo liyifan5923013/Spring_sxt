@@ -1,0 +1,8 @@
+package com.bjsxt.aop;
+
+public class LogInterceptor {
+	public void beforeMethod(Method ) {
+		System.out.println("save start");
+		
+	}
+}

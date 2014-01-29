@@ -1,0 +1,28 @@
+package com.bjsxt.aop;
+
+import javax.annotation.PostConstruct;
+
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+@Aspect
+@Component
+public class LogInterceptor {
+	@Pointcut("execution(public * com.bjsxt.dao..*.*(..))")
+	public void myMethod(){};
+	
+	@Before("myMethod()")
+	public void before() {
+		System.out.println("method before");
+	}
+	@AfterReturning("myMethod()")
+	public void afterReturning() {
+		System.out.println("method after returning");
+	}
+	@AfterThrowing("myMethod()")
+	public void aftertng() {
+		System.out.println("method after exeception");
+	}
+}
