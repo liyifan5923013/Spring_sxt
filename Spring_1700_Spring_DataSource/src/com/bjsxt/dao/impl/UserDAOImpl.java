@@ -24,7 +24,6 @@ public class UserDAOImpl implements UserDAO{
 			conn.createStatement().executeUpdate("insert into user values(null,'zhangsan'");
 			conn.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
